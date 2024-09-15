@@ -48,6 +48,7 @@ const LoginPage = () => {
           <CustomButton
             className="bg-opacity-70, text-center, mb-3"
             label="Masuk"
+            to="/beranda"
           />
           <p className="text-center text-[#9D9EA1] mb-2">Atau</p>
           <CustomButton
