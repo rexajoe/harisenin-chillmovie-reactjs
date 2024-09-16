@@ -1,6 +1,7 @@
-function LogoBrand() {
+import PropTypes from "prop-types";
+function LogoBrand({ className = "" }) {
   return (
-    <div className="flex items-center mx-auto justify-center">
+    <div className={`flex items-center mx-auto justify-center ${className}`}>
       <img
         src="../src/assets/logo-brand.png"
         alt="Logo"
@@ -12,4 +13,8 @@ function LogoBrand() {
     </div>
   );
 }
+
+LogoBrand.propTypes = {
+  className: PropTypes.string,
+};
 export default LogoBrand;
