@@ -1,6 +1,6 @@
-import CustomButton from "./CustomButton";
-import CustomInput from "./CustomInput";
-import LogoBrand from "./LogoBrand";
+import CustomButton from "./components/CustomButton";
+import CustomInput from "./components/CustomInput";
+import LogoBrand from "./components/LogoBrand";
 import { Link } from "react-router-dom";
 const LoginPage = () => {
   return (

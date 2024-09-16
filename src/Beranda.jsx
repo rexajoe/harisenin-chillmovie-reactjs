@@ -1,7 +1,7 @@
-import Navbar from "./Navbar";
-import PreviewImage from "./PreviewImage";
-import ScrollableCards from "./ScrollableCards";
-import Footer from "./Footer";
+import Navbar from "./components/Navbar";
+import PreviewImage from "./components/PreviewImage";
+import ScrollableCards from "./components/ScrollableCards";
+import Footer from "./components/Footer";
 
 const Beranda = () => {
   return (
