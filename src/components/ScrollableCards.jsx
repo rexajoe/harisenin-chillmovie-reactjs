@@ -1,6 +1,12 @@
 import HorizontalCards from "./HorizontalCards";
+import VerticalCards from "./VerticalCards";
 const ScrollableCards = () => {
-  return <HorizontalCards />;
+  return (
+    <div>
+      <HorizontalCards />
+      <VerticalCards />
+    </div>
+  );
 };
 
 export default ScrollableCards;
