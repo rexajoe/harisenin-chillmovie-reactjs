@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 const Beranda = () => {
   return (
-    <div>
+    <div className="bg-[#181A1C]">
       <Navbar />
       <PreviewImage />
       <ScrollableCards />

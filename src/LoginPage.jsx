@@ -36,13 +36,14 @@ const LoginPage = () => {
             </span>
           </div>
 
-          <div className="flex justify-between text-sm mb-4">
+          <div className="flex text-sm mb-4">
             <a href="#register" className="text-[#9D9EA1]">
               Belum punya akun?{" "}
-              <Link to="/register" className="font-bold text-white ml-1">
-                Daftar
-              </Link>
             </a>
+            <Link to="/register" className="font-bold text-white ml-1">
+              Daftar
+            </Link>
+
             <a href="#forgot-password">Lupa kata sandi?</a>
           </div>
           <CustomButton

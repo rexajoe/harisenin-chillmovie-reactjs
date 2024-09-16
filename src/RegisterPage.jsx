@@ -38,10 +38,10 @@ const RegisterPage = () => {
           <div className="text-sm mb-4">
             <a href="#login" className="text-[#9D9EA1]">
               Sudah punya akun?{" "}
-              <Link to="/" className="font-bold text-white ml-1">
-                Masuk
-              </Link>
             </a>
+            <Link to="/" className="font-bold text-white ml-1">
+              Masuk
+            </Link>
           </div>
           {/*button bawah*/}
 

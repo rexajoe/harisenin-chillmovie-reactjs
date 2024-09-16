@@ -2,7 +2,10 @@ import LogoBrand from "./LogoBrand";
 const Navbar = () => {
   return (
     <nav className="bg-[#181A1C] p-4 flex justify-between items-center">
-      <ul className="flex justify-around gap-[5vw] items-center">
+      <ul
+        className="flex justify-around gap-[5vw] items-center"
+        style={{ fontFamily: "Lato" }}
+      >
         <LogoBrand className="ml-[5vw]" />
         <li className="text-white">Series</li>
         <li className="text-white">Film</li>

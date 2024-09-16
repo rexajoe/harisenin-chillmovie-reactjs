@@ -16,10 +16,15 @@ const PreviewImage = () => {
         alt="Preview"
         className="w-full"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10">
-        <div className="absolute h-1/2 left-[5vw] right-[5vw] bottom-[5vw]">
-          <h1 className="text-white text-[48px] p-4">Duty After School</h1>
-          <p className="text-white text-[18px] p-4" style={{ lineHeight: "2" }}>
+      <div
+        className="absolute inset-0 bg-gradient-to-t from-[#181A1C] via-transparent to-transparent z-10"
+        style={{ fontFamily: "Lato" }}
+      >
+        <div className="absolute h-1/2 left-[5vw] right-[5vw] bottom-[10vw]">
+          <h1 className="text-white text-[24px] p-4 sm:text-[24px] md:text-[48px]">
+            Duty After School
+          </h1>
+          <p className="text-white text-[14px] p-4 sm:text-[10px] leading-relaxed sm:leading-tight md:text-[18px] md:leading-relaxed">
             Sebuah benda tak dikenal mengambil alih dunia. Dalam keputusasaan,
             <br />
             Departemen Pertahanan mulai merekrut lebih banyak tentara, termasuk

@@ -29,7 +29,7 @@ CustomButton.propTypes = {
   label: PropTypes.string.isRequired,
   className: PropTypes.string,
   icon: PropTypes.string,
-  to: PropTypes.string.isRequired,
+  to: PropTypes.string,
 };
 
 export default CustomButton;
