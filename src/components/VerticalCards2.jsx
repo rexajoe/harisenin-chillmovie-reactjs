@@ -5,41 +5,41 @@ const VerticalCards = () => {
       style={{ fontFamily: "Lato" }}
     >
       <div className="relative mb-5 text-[32px] w-full">
-        <label htmlFor="">Top Rating Film dan Series Hari Ini</label>
+        <label htmlFor="">Film Trending</label>
       </div>
       <div className="overflow-x-auto whitespace-nowrap w-full relative flex right-0 justify-between gap-[24px]">
         <div className="flex-shrink-0">
           <img
-            src="./src/assets/suzume.png"
-            alt="suzume"
+            src="./src/assets/the-tomorrow-war.png"
+            alt="the-tomorrow-war"
             className="w-[234px] h-[365px] inline-block rounded-lg"
           />
         </div>
         <div className="flex-shrink-0">
           <img
-            src="./src/assets/jurassic-world.png"
-            alt="jurassic-world"
+            src="./src/assets/quantumania.png"
+            alt="quantumania"
             className="w-[234px] h-[365px] inline-block rounded-lg"
           />
         </div>
         <div className="flex-shrink-0">
           <img
-            src="./src/assets/sonic.png"
-            alt="sonic"
+            src="./src/assets/guardian-of-the-galaxy.png"
+            alt="guardian-of-the-galaxy"
             className="w-[234px] h-[365px] inline-block rounded-lg"
           />
         </div>
         <div className="flex-shrink-0">
           <img
-            src="./src/assets/all-of-us.png"
-            alt="all-of-us"
+            src="./src/assets/a-man-called-otto-portrait.png"
+            alt="a-man-called-otto-portrait"
             className="w-[234px] h-[365px] inline-block rounded-lg"
           />
         </div>
         <div className="flex-shrink-0">
           <img
-            src="./src/assets/big-hero.png"
-            alt="big-hero"
+            src="./src/assets/little-mermaid.png"
+            alt="little-mermaid"
             className="w-[234px] h-[365px] inline-block rounded-lg"
           />
         </div>
