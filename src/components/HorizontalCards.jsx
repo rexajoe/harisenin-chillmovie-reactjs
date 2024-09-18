@@ -4,7 +4,7 @@ const HorizontalCards = () => {
   const scrollRef = useRef(null);
 
   const scroll = (direction) => {
-    const distance = direction === "left" ? -300 : 300; // Sesuaikan jarak scroll jika diperlukan
+    const distance = direction === "left" ? -300 : 300;
     if (scrollRef.current) {
       scrollRef.current.scrollBy({ left: distance, behavior: "smooth" });
     }
@@ -19,14 +19,14 @@ const HorizontalCards = () => {
         <label>Melanjutkan Tonton Film</label>
         <div className="absolute z-30 flex justify-between -left-6 -right-6 -bottom-32">
           <span
-            className="bg-[#2F3334] rounded-full cursor-pointer text-md inline-flex items-center justify-center w-12 h-12"
+            className="bg-[#2F3334] outline outline-[#E7E3FC] outline-1 rounded-full cursor-pointer text-md inline-flex items-center justify-center w-12 h-12"
             onClick={() => scroll("left")}
           >
             &larr;
           </span>
 
           <span
-            className="bg-[#2F3334] rounded-full cursor-pointer text-md inline-flex items-center justify-center w-12 h-12"
+            className="bg-[#2F3334] outline outline-[#E7E3FC] outline-1 rounded-full cursor-pointer text-md inline-flex items-center justify-center w-12 h-12"
             onClick={() => scroll("right")}
           >
             &rarr;
