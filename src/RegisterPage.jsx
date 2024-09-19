@@ -3,6 +3,7 @@ import CustomInput from "./components/CustomInput";
 import LogoBrand from "./components/LogoBrand";
 import { Link } from "react-router-dom";
 import bgImageDaftar from "../src/assets/background-daftar.jpeg";
+import googleLogoDaftar from "./assets/google-logo.png";
 const RegisterPage = () => {
   return (
     <div
@@ -54,7 +55,7 @@ const RegisterPage = () => {
           <p className="text-center text-[#9D9EA1] mb-2">Atau</p>
           <CustomButton
             className="bg-opacity-70, text-center"
-            icon="./src/assets/google-logo.png"
+            icon={googleLogoDaftar}
             label="Daftar dengan Google"
           />
         </div>

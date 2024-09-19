@@ -3,6 +3,8 @@ import CustomInput from "./components/CustomInput";
 import LogoBrand from "./components/LogoBrand";
 import { Link } from "react-router-dom";
 import bgImageLogin from "./assets/background-login.jpeg";
+import eye from "./assets/eye.png";
+import googleLogo from "./assets/google-logo.png";
 const LoginPage = () => {
   return (
     <div
@@ -33,7 +35,7 @@ const LoginPage = () => {
           <div className="relative mb-4">
             <CustomInput type="password" placeholder="Masukkan kata sandi" />
             <span className="absolute right-5 top-6 transform -translate-y-1/2 cursor-pointer w-5 h-4">
-              <img src="./src/assets/eye.png" alt="" />
+              <img src={eye} alt="" />
             </span>
           </div>
 
@@ -57,7 +59,7 @@ const LoginPage = () => {
           <p className="text-center text-[#9D9EA1] mb-2">Atau</p>
           <CustomButton
             className="bg-opacity-70, text-center"
-            icon="./src/assets/google-logo.png"
+            icon={googleLogo}
             label="Masuk dengan Google"
           />
         </div>
