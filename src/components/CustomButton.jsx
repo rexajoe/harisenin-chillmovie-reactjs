@@ -17,7 +17,7 @@ const CustomButton = ({ label, icon, className = "", to }) => {
         <img
           src={icon}
           alt="Icon"
-          className="absolute left-[100px] transform -translate-y-[-5px] w-4 h-4"
+          className="absolute left-[50px] sm:left-[65px] md:left-[75px] lg:left-[100px] transform -translate-y-[-5px] w-4 h-4"
         />
       )}
       <span>{label}</span>
