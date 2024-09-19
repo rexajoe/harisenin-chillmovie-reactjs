@@ -27,7 +27,7 @@ const Navbar = () => {
             className="rounded-full"
           />
         </li>
-        <li className="w-7 h-7 cursor-pointer">
+        <div className="w-7 h-7 cursor-pointer">
           <img
             src="./src/assets/arrowdown.png"
             alt="arrow-down"
@@ -70,7 +70,7 @@ const Navbar = () => {
               </li>
             </div>
           )}
-        </li>
+        </div>
       </ul>
     </nav>
   );
