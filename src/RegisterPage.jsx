@@ -2,11 +2,12 @@ import CustomButton from "./components/CustomButton";
 import CustomInput from "./components/CustomInput";
 import LogoBrand from "./components/LogoBrand";
 import { Link } from "react-router-dom";
+import bgImageDaftar from "../src/assets/background-daftar.jpeg";
 const RegisterPage = () => {
   return (
     <div
       className="flex items-center justify-center min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url(../src/assets/background-daftar.jpeg)" }}
+      style={{ backgroundImage: bgImageDaftar }}
     >
       <div className="bg-black bg-opacity-70 p-8 rounded-lg w-[529px] h-auto">
         <LogoBrand />

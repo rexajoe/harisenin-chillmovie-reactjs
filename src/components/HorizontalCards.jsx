@@ -1,4 +1,8 @@
 import { useRef } from "react";
+import dontLookUp from "./src/assets/dont-look-up.png";
+import theBatman from "./src/assets/the-batman.png";
+import blueLock from "./src/assets/blue-lock.png";
+import aManCalledOtto from "./src/assets/a-man-called-otto.png";
 
 const HorizontalCards = () => {
   const scrollRef = useRef(null);
@@ -39,7 +43,7 @@ const HorizontalCards = () => {
       >
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/dont-look-up.png"
+            src={dontLookUp}
             alt="dont-look-up"
             className="w-[309px] md:w-[302px] h-[151px] md:h-[162px] inline-block rounded-lg"
           />
@@ -51,7 +55,7 @@ const HorizontalCards = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/the-batman.png"
+            src={theBatman}
             alt="the-batman"
             className="w-[309px] md:w-[302px] h-[151px] md:h-[162px] inline-block rounded-lg"
           />
@@ -63,7 +67,7 @@ const HorizontalCards = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/blue-lock.png"
+            src={blueLock}
             alt="blue-lock"
             className="w-[309px] md:w-[302px] h-[151px] md:h-[162px] inline-block rounded-lg"
           />
@@ -75,7 +79,7 @@ const HorizontalCards = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/a-man-called-otto.png"
+            src={aManCalledOtto}
             alt="a-man-called-otto"
             className="w-[309px] md:w-[302px] h-[151px] md:h-[162px] inline-block rounded-lg"
           />
