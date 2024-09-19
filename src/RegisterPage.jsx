@@ -7,7 +7,7 @@ const RegisterPage = () => {
   return (
     <div
       className="flex items-center justify-center min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: bgImageDaftar }}
+      style={{ backgroundImage: `url(${bgImageDaftar})` }}
     >
       <div className="bg-black bg-opacity-70 p-8 rounded-lg w-[529px] h-auto">
         <LogoBrand />

@@ -2,12 +2,12 @@ import CustomButton from "./components/CustomButton";
 import CustomInput from "./components/CustomInput";
 import LogoBrand from "./components/LogoBrand";
 import { Link } from "react-router-dom";
-import bgImageLogin from "../src/assets/background-login.jpeg";
+import bgImageLogin from "./assets/background-login.jpeg";
 const LoginPage = () => {
   return (
     <div
       className="flex items-center justify-center min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: bgImageLogin }}
+      style={{ backgroundImage: `url(${bgImageLogin})` }}
     >
       <div className="bg-black bg-opacity-70 p-8 rounded-lg w-[529px] h-auto">
         <div className="text-center mb-6">
@@ -37,15 +37,17 @@ const LoginPage = () => {
             </span>
           </div>
 
-          <div className="flex text-sm mb-4">
+          <div className="flex justify-between text-sm mb-4">
             <a href="#register" className="text-[#9D9EA1]">
               Belum punya akun?{" "}
             </a>
-            <Link to="/register" className="font-bold text-white ml-1">
+            <Link to="/register" className="font-bold text-white mr-48">
               Daftar
             </Link>
 
-            <a href="#forgot-password">Lupa kata sandi?</a>
+            <a className="text-white" href="#forgot-password">
+              Lupa kata sandi?
+            </a>
           </div>
           <CustomButton
             className="bg-opacity-70, text-center, mb-3"

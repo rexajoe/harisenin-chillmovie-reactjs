@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import dontLookUp from "./src/assets/dont-look-up.png";
-import theBatman from "./src/assets/the-batman.png";
-import blueLock from "./src/assets/blue-lock.png";
-import aManCalledOtto from "./src/assets/a-man-called-otto.png";
+import dontLookUp from "../assets/dont-look-up.png";
+import theBatman from "../assets/the-batman.png";
+import blueLock from "../assets/blue-lock.png";
+import aManCalledOtto from "../assets/a-man-called-otto.png";
 
 const HorizontalCards = () => {
   const scrollRef = useRef(null);
