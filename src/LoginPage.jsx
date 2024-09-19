@@ -40,12 +40,12 @@ const LoginPage = () => {
           </div>
 
           <div className="flex justify-between text-sm mb-4">
-            <a href="#register" className="text-[#9D9EA1]">
+            <div href="#register" className="text-[#9D9EA1]">
               Belum punya akun?{" "}
-            </a>
-            <Link to="/register" className="font-bold text-white mr-48">
-              Daftar
-            </Link>
+              <Link to="/register" className="font-bold text-white">
+                Daftar
+              </Link>
+            </div>
 
             <a className="text-white" href="#forgot-password">
               Lupa kata sandi?
