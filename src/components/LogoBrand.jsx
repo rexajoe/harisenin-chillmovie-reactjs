@@ -8,7 +8,7 @@ function LogoBrand({ className = "" }) {
         className="mb-2 w-10 h-9"
       />
       <div style={{ fontFamily: "Londrina Solid" }}>
-        <h1 className="text-white text-3xl">CHILL</h1>
+        <h1 className="hidden sm:block sm:text-white text-3xl">CHILL</h1>
       </div>
     </div>
   );

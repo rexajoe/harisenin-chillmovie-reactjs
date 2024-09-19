@@ -15,18 +15,18 @@ const HorizontalCards = () => {
       className="text-white ml-[5vw] mr-[5vw]"
       style={{ fontFamily: "Lato" }}
     >
-      <div className="relative mb-5 text-[32px] w-full">
+      <div className="relative mb-5 text-[20px] md:text-[32px] mt-14 w-full">
         <label>Melanjutkan Tonton Film</label>
         <div className="absolute z-30 flex justify-between -left-6 -right-6 -bottom-32">
           <span
-            className="bg-[#2F3334] outline outline-[#E7E3FC] outline-1 rounded-full cursor-pointer text-md inline-flex items-center justify-center w-12 h-12"
+            className="hidden bg-[#2F3334] outline outline-[#E7E3FC] outline-1 rounded-full cursor-pointer text-md md:inline-flex items-center justify-center w-12 h-12"
             onClick={() => scroll("left")}
           >
             &larr;
           </span>
 
           <span
-            className="bg-[#2F3334] outline outline-[#E7E3FC] outline-1 rounded-full cursor-pointer text-md inline-flex items-center justify-center w-12 h-12"
+            className="hidden bg-[#2F3334] outline outline-[#E7E3FC] outline-1 rounded-full cursor-pointer text-md md:inline-flex items-center justify-center w-12 h-12"
             onClick={() => scroll("right")}
           >
             &rarr;
@@ -41,7 +41,7 @@ const HorizontalCards = () => {
           <img
             src="./src/assets/dont-look-up.png"
             alt="dont-look-up"
-            className="w-[302px] h-[162px] inline-block rounded-lg"
+            className="w-[309px] md:w-[302px] h-[151px] md:h-[162px] inline-block rounded-lg"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#181A1C] to-transparent rounded-lg z-10"></div>
           <div className="flex content-center justify-between w-[286px] absolute bottom-2 left-2 text-white z-20">
@@ -53,7 +53,7 @@ const HorizontalCards = () => {
           <img
             src="./src/assets/the-batman.png"
             alt="the-batman"
-            className="w-[302px] h-[162px] inline-block rounded-lg"
+            className="w-[309px] md:w-[302px] h-[151px] md:h-[162px] inline-block rounded-lg"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#181A1C] to-transparent rounded-lg z-10"></div>
           <div className="flex content-center justify-between w-[286px] absolute bottom-2 left-2 text-white z-20">
@@ -65,7 +65,7 @@ const HorizontalCards = () => {
           <img
             src="./src/assets/blue-lock.png"
             alt="blue-lock"
-            className="w-[302px] h-[162px] inline-block rounded-lg"
+            className="w-[309px] md:w-[302px] h-[151px] md:h-[162px] inline-block rounded-lg"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#181A1C] to-transparent rounded-lg z-10"></div>
           <div className="flex content-center justify-between w-[286px] absolute bottom-2 left-2 text-white z-20">
@@ -77,7 +77,7 @@ const HorizontalCards = () => {
           <img
             src="./src/assets/a-man-called-otto.png"
             alt="a-man-called-otto"
-            className="w-[302px] h-[162px] inline-block rounded-lg"
+            className="w-[309px] md:w-[302px] h-[151px] md:h-[162px] inline-block rounded-lg"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#181A1C] to-transparent rounded-lg z-10"></div>
           <div className="flex content-center justify-between w-[286px] absolute bottom-2 left-2 text-white z-20">
