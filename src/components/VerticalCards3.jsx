@@ -1,4 +1,9 @@
 import { useRef } from "react";
+import missing from "../assets/missing.png";
+import aManCalledOttoPortait from "../assets/a-man-called-otto-portrait.png";
+import littleMeramid from "../assets/little-mermaid.png";
+import bigHero from "../assets/big-hero.png";
+import guardianOftheGalaxy from "../assets/guardian-of-the-galaxy.png";
 
 const VerticalCards3 = () => {
   const scrollRef = useRef(null);
@@ -39,7 +44,7 @@ const VerticalCards3 = () => {
       >
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/missing.png"
+            src={missing}
             alt="missing"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
@@ -49,7 +54,7 @@ const VerticalCards3 = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/a-man-called-otto-portrait.png"
+            src={aManCalledOttoPortait}
             alt="a-man-called-otto-portrait"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
@@ -59,7 +64,7 @@ const VerticalCards3 = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/little-mermaid.png"
+            src={littleMeramid}
             alt="little-mermaid"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
@@ -69,7 +74,7 @@ const VerticalCards3 = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/big-hero.png"
+            src={bigHero}
             alt="big-hero"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
@@ -83,7 +88,7 @@ const VerticalCards3 = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/guardian-of-the-galaxy.png"
+            src={guardianOftheGalaxy}
             alt="guardian-of-the-galaxy"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />

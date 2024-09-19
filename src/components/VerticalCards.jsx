@@ -1,4 +1,9 @@
 import { useRef } from "react";
+import suzume from "../assets/suzume.png";
+import jurassicWorld from "../assets/jurassic-world.png";
+import sonic from "../assets/sonic.png";
+import allOfUs from "../assets/all-of-us.png";
+import bigHero from "../assets/big-hero.png";
 
 const VerticalCards = () => {
   const scrollRef = useRef(null);
@@ -39,7 +44,7 @@ const VerticalCards = () => {
       >
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/suzume.png"
+            src={suzume}
             alt="suzume"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
@@ -49,7 +54,7 @@ const VerticalCards = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/jurassic-world.png"
+            src={jurassicWorld}
             alt="jurassic-world"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
@@ -59,7 +64,7 @@ const VerticalCards = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/sonic.png"
+            src={sonic}
             alt="sonic"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
@@ -69,14 +74,14 @@ const VerticalCards = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/all-of-us.png"
+            src={allOfUs}
             alt="all-of-us"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/big-hero.png"
+            src={bigHero}
             alt="big-hero"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />

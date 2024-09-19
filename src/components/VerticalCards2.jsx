@@ -1,4 +1,9 @@
 import { useRef } from "react";
+import theTomorrowWar from "../assets/the-tomorrow-war.png";
+import quantumania from "../assets/quantumania.png";
+import bigHero from "../assets/big-hero.png";
+import littleMeramaid from "../assets/little-mermaid.png";
+import allOfUs from "../assets/all-of-us.png";
 
 const VerticalCards2 = () => {
   const scrollRef = useRef(null);
@@ -39,28 +44,28 @@ const VerticalCards2 = () => {
       >
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/the-tomorrow-war.png"
+            src={theTomorrowWar}
             alt="the-tommorow-war"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/quantumania.png"
+            src={quantumania}
             alt="quantumania"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/big-hero.png"
+            src={bigHero}
             alt="big-hero"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/little-mermaid.png"
+            src={littleMeramaid}
             alt="little-mermaid"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />
@@ -74,7 +79,7 @@ const VerticalCards2 = () => {
         </div>
         <div className="flex-shrink-0 relative">
           <img
-            src="./src/assets/all-of-us.png"
+            src={allOfUs}
             alt="all-of-us"
             className="w-[95.6px] h-[143.39] md:w-[234px] md:h-[365px] inline-block rounded-lg"
           />

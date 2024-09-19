@@ -4,6 +4,7 @@ import LogoBrand from "./components/LogoBrand";
 import { Link } from "react-router-dom";
 import bgImageDaftar from "../src/assets/background-daftar.jpeg";
 import googleLogoDaftar from "./assets/google-logo.png";
+import eye from "./assets/eye.png";
 const RegisterPage = () => {
   return (
     <div
@@ -25,7 +26,7 @@ const RegisterPage = () => {
           <div className="relative mb-4">
             <CustomInput className="mb-2" placeholder="Masukkan kata sandi" />
             <span className="absolute right-5 top-6 transform -translate-y-1/2 cursor-pointer w-5 h-4">
-              <img src="./src/assets/eye.png" alt="" />
+              <img src={eye} alt="" />
             </span>
           </div>
 
@@ -33,7 +34,7 @@ const RegisterPage = () => {
           <div className="relative mb-4">
             <CustomInput placeholder="Masukkan kata sandi" />
             <span className="absolute right-5 top-6 transform -translate-y-1/2 cursor-pointer w-5 h-4">
-              <img src="./src/assets/eye.png" alt="" />
+              <img src={eye} alt="" />
             </span>
           </div>
 

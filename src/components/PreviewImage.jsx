@@ -1,4 +1,5 @@
 import { VolumeOffIcon } from "@heroicons/react/outline";
+import dutyAfterSchool from "../assets/dutyafterschool.png";
 
 const MuteButton = () => {
   return (
@@ -11,11 +12,7 @@ const MuteButton = () => {
 const PreviewImage = () => {
   return (
     <div className="relative">
-      <img
-        src="./src/assets/dutyafterschool.png"
-        alt="Preview"
-        className="w-full"
-      />
+      <img src={dutyAfterSchool} alt="Preview" className="w-full" />
       <div
         className="absolute inset-0 bg-gradient-to-t from-[#181A1C] via-transparent to-transparent z-10"
         style={{ fontFamily: "Lato" }}
